@@ -46,9 +46,8 @@ const TodoList = () => {
       <ul>
         {items.map((val, id) => (
           <li key={id}>
-            {" "}
             {val}
-            <button onClick={() => handleDelete(id)}>-</button>
+            <button onClick={() => handleDelete(id)}>x</button>
           </li>
         ))}
       </ul>
