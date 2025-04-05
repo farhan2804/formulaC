@@ -1,10 +1,11 @@
 import React from 'react'
-import TodoList from './Components/TodoList/TodoList'
+import Chessboard from './Components/ChessBoard/Chessboard'
+
 
 const App = () => {
   return (
     <>
-      <TodoList/>
+     <Chessboard/>
     </>
   )
 }
